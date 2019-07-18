@@ -11,6 +11,7 @@ import axios from '@/api/axios.js'
 import ELEMENTUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import Component from '@/components/index.js'
+import '@/styles/index.less'
 Vue.use(Component)
 Vue.prototype.$http = axios
 Vue.use(ELEMENTUI)

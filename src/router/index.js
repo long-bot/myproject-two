@@ -7,6 +7,7 @@ import Home from '@/views/Home'
 import Not from '@/views/NotFound'
 import Welcome from '@/views/Welcome'
 import Article from '@/views/Article'
+import Image from '@/views/image'
 // 需要吧router挂载到vue上
 Vue.use(VueRouter)
 
@@ -30,6 +31,11 @@ const router = new VueRouter({
       name: 'article',
       path: '/article',
       component: Article
+    },
+    {
+      name: 'image',
+      path: '/image',
+      component: Image
     }
     ]
   },
